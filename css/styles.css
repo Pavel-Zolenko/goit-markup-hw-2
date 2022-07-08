@@ -65,7 +65,7 @@ color: var(--accent-color);
     color: var(--accent-color);
 }
 /* section hero */
-.hero {
+.hero .title {
     background-color: var(--primary-bg-cl);
     color: #FFFFFF;
     font-weight: 900;
@@ -98,7 +98,6 @@ color: var(--accent-color);
 }
 .Benefits .text {
     color: var(--primary-txt-cl);
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
@@ -127,8 +126,6 @@ color: var(--accent-color);
 }
 .team-text {
     color: var(--primary-txt-cl);
-    font-weight: 400;
-    font-size: 16px;
     line-height: calc(19 / 16);    
     letter-spacing: 0.03em;
 }
@@ -156,7 +153,11 @@ color: var(--accent-color);
     color: var(--white-cl)
 }
 .address-contact {
-color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
 
 }
 .address-map:hover,
@@ -191,7 +192,6 @@ color: rgba(255, 255, 255, 0.6);
 /* -----portfolio list----- */
 
 .portfolio-title {
-    font-family: inherit;
     font-size: 18px;
     line-height: calc(36 / 18);   
     letter-spacing: 0.06em;
@@ -199,7 +199,6 @@ color: rgba(255, 255, 255, 0.6);
 }
 .portfolio-text {
     color: var(--primary-txt-cl);
-    font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
 }
